@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Amongus language compiler</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--bootstrap-->
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+<h1>amongus language compiler</h1>
+<p>made by ian and nathan</p>
+<br>
+<pre>Warning: the YELLOW command does not work, console has not been implemented yet.</pre>
+input<br>
+<textarea name="code" id="code" cols="30" rows="10"></textarea>
+<br>
+<button onclick="compile()">compile</button>
+<br>
+output<br>
+<textarea name="output" id="result" cols="30" rows="10"></textarea>
+<!-- lock the textarea-->
+<script>
+    document.getElementById("result").readOnly = true;
+</script>
+</body>
+</html>
